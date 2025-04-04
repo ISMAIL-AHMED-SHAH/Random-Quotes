@@ -78,7 +78,7 @@ if st.button("➕ Add Quote"):
         st.warning("🚫 Please enter a valid quote.")
 
 # --- Sidebar ---
-st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3859/3859509.png", use_column_width=True)
+st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3859/3859509.png", use_container_width=True)
 st.sidebar.markdown("## 💡 Motivation Tip")
 st.sidebar.write("Start your day with a positive thought. Repeat: *Today is going to be amazing!* ✨")
 st.sidebar.markdown("---")
